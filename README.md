@@ -11,42 +11,16 @@ provided for a detailed explanation of mathematics behind the code.
 2. Stan Zwinkels		4630726
 3. Jelmer de Wolde		4705041
 
-## Requirements
+## Install packages
 ----------------------------------------------------------------
-* math
-* numpy
-* scipy
-* PIL
-
-* random
-
-* os
-* pygame
-
-## Contents
-
------------------------------------------------------------------
-1. `Main.py
-`
-2. `create_object_borders.py
-`
-3. `sample_points.py`
-
-4. `nearest_neighb.py`
-5. `edge_check.py`
-
-6. `Dijkstra.py`
-7. `splines.py`
-
-8. `PurePursuit_PID.py`
-
-9. `simulation_plot_functions.py`
-
-10. `colour_picking_check.py`
-
-
-------------------------------------------------------------------
-
+math \
+numpy \
+scipy \
+PIL \
+random
+ \
+os \
+pygame
 
 
 ## Usage
@@ -60,3 +34,6 @@ changed on line 32. Three maps are supplied (A, B and C).
 
 ### Explanation
 ![page1](docs/0001.jpg)
+![page1](docs/0002.jpg)
+![page1](docs/0003.jpg)
+![page1](docs/0004.jpg)
