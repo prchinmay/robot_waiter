@@ -1,9 +1,15 @@
 # robot_waiter
 
 
-A path planning and control method is developed for the scenario of a non-holonomic robot serving 
-food in a restaurant. Take a look at [video](video.mp4) for a quick summary. Read the [report](report.pdf) 
-provided for a detailed explanation of mathematics behind the code.
+## Overview
+
+A path planning and control method is developed for the scenario of a non-holonomic robot serving food in a
+restaurant. The path planning algorithm used is PRM*, where a semi-random point sampling algorithm is used. 
+Graph search is performed by the Dijkstra algorithm, after which b-splines is used to smoothen the path. 
+By using a pure pursuit model in combination with a PID-controller, the serving robot can follow the trajectory
+within predefined limits. Finally, the results are discussed, commenting on the performance and limitations of
+the system, followed by future recommendations. Take a look at [video](video.mp4) for a quick summary. 
+Read the [report](report.pdf) provided for a detailed explanation of mathematics behind the code.
  
 ## Contributers
 1. Chinmay Polyaramesh		5135125
@@ -30,7 +36,7 @@ are
 changed on line 32. Three maps are supplied (A, B and C).
 
 
-### Explanation
+## Explanation
 ![page1](docs/0001.jpg)
 ![page1](docs/0002.jpg)
 ![page1](docs/0003.jpg)
