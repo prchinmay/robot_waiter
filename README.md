@@ -1,56 +1,48 @@
 # robot_waiter
 
 
-A path planning and control method is developed for the scenario of a non-holonomic robot serving food in a restaurant.
-
-Take a look at [video](video.mp4) for a quick summary. Read the [report](report.pdf) provided for a detailed explanation of mathematics
-behind the code.
+A path planning and control method is developed for the scenario of a non-holonomic robot serving 
+food in a restaurant. Take a look at [video](video.mp4) for a quick summary. Read the [report](report.pdf) 
+provided for a detailed explanation of mathematics behind the code.
  
 ## Contributers
 ----------------------------------------------------------------
-Stan Zwinkels		4630726
-
-Jelmer de Wolde		4705041
-
-Chinmay Polyaramesh	5135125
-
+1. Chinmay Polyaramesh		5135125
+2. Stan Zwinkels		4630726
+3. Jelmer de Wolde		4705041
 
 ## Requirements
 ----------------------------------------------------------------
-math
+* math
+* numpy
+* scipy
+* PIL
 
-numpy
+* random
 
-scipy
-
-PIL
-
-random
-
-os
-
-pygame
+* os
+* pygame
 
 ## Contents
 
 -----------------------------------------------------------------
-`Main.py
+1. `Main.py
 `
-`create_object_borders.py
+2. `create_object_borders.py
 `
-`sample_points.py`
+3. `sample_points.py`
 
-`nearest_neighb.py`
-`edge_check.py`
+4. `nearest_neighb.py`
+5. `edge_check.py`
 
-`Dijkstra.py`
-`splines.py`
+6. `Dijkstra.py`
+7. `splines.py`
 
-`PurePursuit_PID.py`
+8. `PurePursuit_PID.py`
 
-`simulation_plot_functions.py`
+9. `simulation_plot_functions.py`
 
-`colour_picking_check.py`
+10. `colour_picking_check.py`
 
 
 ------------------------------------------------------------------
@@ -60,12 +52,11 @@ pygame
 ## Usage
 
 Run the scipt `Main.py`. A PyGame windows will be opened. 
-First run always takes a while, since borders are
- getting plotted and 
-graph gets sampled.
+First run always takes a while, since borders 
+are
+ getting plotted and graph gets sampled.
 
- The location can be selected using mouse click. 
-
-Map can be changed on line 32. Three maps are supplied (A, B and C).
+ The location can be selected using mouse click. Map can be 
+changed on line 32. Three maps are supplied (A, B and C).
 
 
