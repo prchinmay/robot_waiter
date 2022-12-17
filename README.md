@@ -1,8 +1,8 @@
 # robot_waiter
 
+https://user-images.githubusercontent.com/85110793/208250465-d81af172-66f1-4d69-b29f-9b9be89327bc.mp4
 
 ## Overview
-
 A path planning and control method is developed for the scenario of a non-holonomic robot serving food in a
 restaurant. The path planning algorithm used is PRM*, where a semi-random point sampling algorithm is used. 
 Graph search is performed by the Dijkstra algorithm, after which b-splines is used to smoothen the path. 
@@ -21,20 +21,14 @@ math \
 numpy \
 scipy \
 PIL \
-random
- \
+random \
 os \
 pygame
 
-
 ## Usage
-
-Run the scipt `Main.py`. A PyGame windows will be opened. 
-First run always takes a while, since borders 
-are
- getting plotted and graph gets sampled. The location can be selected using mouse click. Map can be 
+Run the scipt `Main.py`. A PyGame windows will be opened. First run always takes a while, since borders 
+are getting plotted and graph gets sampled. The location can be selected using mouse click. Map can be 
 changed on line 32. Three maps are supplied (A, B and C).
-
 
 ## Explanation
 ![page1](docs/0001.jpg)
