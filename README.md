@@ -6,13 +6,11 @@ food in a restaurant. Take a look at [video](video.mp4) for a quick summary. Rea
 provided for a detailed explanation of mathematics behind the code.
  
 ## Contributers
-----------------------------------------------------------------
 1. Chinmay Polyaramesh		5135125
 2. Stan Zwinkels		4630726
 3. Jelmer de Wolde		4705041
 
 ## Install packages
-----------------------------------------------------------------
 math \
 numpy \
 scipy \
