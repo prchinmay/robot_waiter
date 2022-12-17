@@ -54,11 +54,9 @@ provided for a detailed explanation of mathematics behind the code.
 Run the scipt `Main.py`. A PyGame windows will be opened. 
 First run always takes a while, since borders 
 are
- getting plotted and graph gets sampled.
-
- The location can be selected using mouse click. Map can be 
+ getting plotted and graph gets sampled. The location can be selected using mouse click. Map can be 
 changed on line 32. Three maps are supplied (A, B and C).
 
 
 ### Explanation
-[embed]docs/report.pdf[/embed]
+![page1](docs/0001.jpg)
